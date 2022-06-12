@@ -5,9 +5,11 @@
   <label class="col-sm-2 col-form-label">Filer By:</label>
 
   <!-- Two way data Bind -->
-  <div class="col-sm-10">
+  <div class="col-sm-8">
     <input [(ngModel)]="filter" class="form-control" />
   </div>
+
+  <a [routerLink]="['/courses/info']" class="col-sm-2 btn btn-secondary">Add</a>
 
 </div>
 
